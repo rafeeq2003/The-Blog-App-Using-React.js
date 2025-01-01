@@ -1,27 +1,64 @@
 # Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+```bash
+npm install
+```
 
-Runs the app in the development mode.\
+Installs all the required dependencies for the project. Make sure to run this before starting the project.
+
+```bash
+cd project-name
+```
+
+Navigate to the project folder. Replace `project-name` with the actual name of your project.
+
+```bash
+npx json-server --watch db.json --port 8000
+```
+
+Starts the JSON server to mock API endpoints.  
+Make sure you have a `db.json` file in your project directory. The server will be accessible at `http://localhost:8000`.
+
+```bash
+npm start
+```
+
+Runs the app in development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload automatically when you make changes to the code.  
+You can also see any lint errors in the console.
 
-### `npm test`
+```bash
+npm test
+```
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in interactive watch mode.  
+Use this to run unit tests and ensure your code works as expected.
 
-### `npm run build`
+```bash
+npm run build
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder.  
+The app is optimized for the best performance and is ready to be deployed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The build process includes minification, and the filenames include hashes for cache management.
 
+## Notes
 
+- Before starting the JSON server, ensure that `json-server` is installed globally or as a dev dependency in your project. You can install it using:
+
+```bash
+npm install -g json-server
+```
+
+- Ensure the `db.json` file is configured correctly to mock your data.
+
+Feel free to modify this documentation as per your project's requirements!
