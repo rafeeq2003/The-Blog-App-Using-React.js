@@ -64,6 +64,7 @@ npm install -g json-server
 Feel free to modify this documentation as per your project's requirements!
 
 ## Preview
-![Add new blog](https://github.com/user-attachments/assets/73f9a7ff-97ac-4649-866f-1962680b70b9)
-![Hone Page](https://github.com/user-attachments/assets/bb7d3870-be8f-4cbd-a4b9-4f84500bd5ac)
+![Home Page](https://github.com/user-attachments/assets/7e558de2-2888-45c0-8bb4-de2bb235e7a6)
+![Add New Blogs](https://github.com/user-attachments/assets/0c7643f2-8b64-4ee0-926b-c0e9126766bb)
+
 
